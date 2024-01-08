@@ -6,7 +6,7 @@ metadata:
   tags:
   - public
 spec:
-  type: application
+  type: artifact
   lifecycle: production
   owner: windy-owls
   system: jamf-trust
