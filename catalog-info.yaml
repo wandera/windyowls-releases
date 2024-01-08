@@ -1,15 +1,12 @@
-# Please remove the lines below and create catalog-info.yaml file for your repository.
-# Reference: https://jamfsoftware.atlassian.net/wiki/spaces/DEVX/pages/2559215257/Repository+Ownership
-
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: template-repository
-  description: A template repository to create new repositories
-  annotations:
-    backstage.io/source-location: url:https://github.com/wandera/template-repository
+  name: windyowls-releases
+  description: A repository to store MSIs of the JamfTrust for windows client
+  tags:
+  - public
 spec:
-  type: provisioning
+  type: application
   lifecycle: production
-  owner: delta
-  system: continuous-integration
+  owner: windy-owls
+  system: jamf-trust
